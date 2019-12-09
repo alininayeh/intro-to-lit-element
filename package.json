@@ -1,0 +1,35 @@
+{
+  "name": "intro-to-lit-element",
+  "version": "1.0.0",
+  "description": "Lit Element is a simple base class for creating web components, part of the Polymer Project (https://www.polymer-project.org/). You can find out more here: https://lit-element.polymer-project.org/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alininayeh/intro-to-lit-element.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alininayeh/intro-to-lit-element/issues"
+  },
+  "homepage": "https://github.com/alininayeh/intro-to-lit-element#readme",
+  "dependencies": {
+    "lit-element": "^2.2.1"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "lit-css-loader": "0.0.3",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.1",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.3",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}

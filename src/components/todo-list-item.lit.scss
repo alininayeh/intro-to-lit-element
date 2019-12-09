@@ -1,0 +1,28 @@
+// src/components/todo-list-item.lit.scss
+:host {
+    display: block;
+}
+ 
+.todo-list-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    display: flex;
+    font-family: sans-serif;
+    align-items: center;
+ 
+    span {
+        flex-grow: 1;
+        margin-left: 10px;
+    }
+ 
+    &.checked span {
+        text-decoration: line-through;
+    }
+ 
+    button {
+        background: red;
+        padding: 5px;
+        color: white;
+        border: none;
+    }
+}
