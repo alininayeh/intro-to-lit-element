@@ -1,6 +1,6 @@
-// src/index.ts
-import './components/todo-list';
- 
+import "./components/todo-list";
+
+// Create a div with id=root, then append the web component
 const div = document.createElement('div');
 div.id = 'root';
 document.body.appendChild(div);

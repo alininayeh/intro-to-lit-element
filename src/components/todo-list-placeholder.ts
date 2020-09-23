@@ -1,9 +1,8 @@
-// src/components/todo-list-placeholder.ts
-import { customElement, LitElement, html } from 'lit-element';
-import styles from './todo-list-placeholder.lit.scss';
- 
-@customElement('todo-list-placeholder')
-class TodoListPlaceholder extends LitElement {
+import { customElement, html, LitElement } from "lit-element";
+import styles from "./todo-list-placeholder.lit.scss";
+
+@customElement("todo-list-placeholder")
+export class TodoListPlaceholder extends LitElement {
     static styles = styles;
     
     render() {
@@ -16,6 +15,6 @@ class TodoListPlaceholder extends LitElement {
                     <slot name="content"></slot>
                 </div>
             </div>
-        `;   
+        `;
     }
 }
